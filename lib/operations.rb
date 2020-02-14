@@ -7,7 +7,7 @@ def unsafe?(speed)
 	elsif speed == (40..60)
 		false
 	else
-		nil 
+	end  
 end
 
 
