@@ -1,12 +1,15 @@
-require 'pry'
-def unsafe?(speed)
-binding.pry
-speed == 60 ? 'true' : 'false'
 
-end
-unsafe?(79)
-# unsafe?(35)
-# unsafe?(50)
+def unsafe?(speed)
+	if speed > 60 
+		true 
+	elsif speed < 35 
+		true 
+	elsif speed == (40..60)
+		false
+	else 
+end 
+		
+		
 
 def not_safe?(speed)
 
