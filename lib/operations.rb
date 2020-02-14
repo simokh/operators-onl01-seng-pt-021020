@@ -8,7 +8,7 @@ def unsafe?(speed)
 		false
 	else
 		nil 
-end 
+end
 
 
 
